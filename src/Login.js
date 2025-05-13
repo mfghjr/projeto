@@ -15,7 +15,8 @@ function Login() {
 
   return (
     <form onSubmit={handleSubmit} className="login-form">
-      <h2>Login</h2>
+      <h2>Bem-vindo</h2>
+      <h6>Faça login para continuar</h6>
       <input
         type="email"
         placeholder="Email"
